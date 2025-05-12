@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pl" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarketMinds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a0e9c2669b.js" crossorigin="anonymous"></script>
+  <link href="./style.css" rel="stylesheet">
+</head>
+
+<body class="font-display">
+  <nav
+    class="nav-mobile fixed inset-0 w-full h-full transform -translate-y-full transition-transform duration-300 bg-nav z-10">
+    <div class="flex flex-col justify-center items-center h-full text-2xl tracking-[1px] gap-10 md:gap-12">
+      <a href=""
+        class="px-4 py-2.5 mx-0.5 rounded-full text-[20px] text-white tracking-[0.5px] hover:bg-nav-second transition duration-300 md:text-2xl">Home</a>
+      <a href="#about"
+        class="px-4 py-2.5 mx-0.5 rounded-full text-[20px] text-white tracking-[0.5px] hover:bg-nav-second transition duration-300 md:text-2xl">About</a>
+      <a href="#services"
+        class="px-4 py-2.5 mx-0.5 rounded-full text-[20px] text-white tracking-[0.5px] hover:bg-nav-second transition duration-300 md:text-2xl">Services</a>
+      <a href="#contact"
+        class="px-4 py-2.5 mx-0.5 rounded-full text-[20px] text-white tracking-[0.5px] hover:bg-nav-second transition duration-300 md:text-2xl">Contact</a>
+      <button
+        class="bars-closebtn flex items-center justify-center absolute bottom-10 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-nav focus:bg-nav-second rounded-[40px] z-10">
+        <i class="fa-solid fa-xmark text-white text-4xl cursor-pointer"></i>
+      </button>
+    </div>
+  </nav>
+  <button
+    class="bars-btn flex items-center justify-center fixed top-9 left-1/2 transform -translate-x-1/2 w-16 bg-nav focus:bg-nav-second rounded-[40px] cursor-pointer z-9 lg:hidden">
+    <i class="fa-solid fa-ellipsis text-white text-4xl"></i>
+  </button>
+
+  <nav
+    class="nav-desktop hidden fixed justify-center top-5 left-1/2 transform -translate-x-1/2 rounded-[40px] text-white bg-nav z-9 lg:flex">
+    <div class="p-3">
+      <a href=""
+        class="px-4 py-2.5 mx-0.5 rounded-full text-lg text-white tracking-[0.5px] hover:bg-nav-second transition duration-300">Home</a>
+      <a href="#about"
+        class="px-4 py-2.5 mx-0.5 rounded-full text-lg text-white tracking-[0.5px] hover:bg-nav-second transition duration-300">About</a>
+      <a href="#services"
+        class="px-4 py-2.5 mx-0.5 rounded-full text-lg text-white tracking-[0.5px] hover:bg-nav-second transition duration-300">Services</a>
+      <a href="#contact"
+        class="px-4 py-2.5 mx-0.5 rounded-full text-lg text-white tracking-[0.5px] hover:bg-nav-second transition duration-300">Contact</a>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="hero-img relative bg-cover bg-center h-screen z-0">
+      <div class="header-text flex justify-center flex-col items-center h-screen text-white">
+        <div class="title-container relative flex flex-col text-center gap-5">
+          <h1 class="fade-in-up text-4xl font-extrabold tracking-[1px] z-2 xs:text-5xl 2xl:text-6xl">
+            Market<span class="text-main">Minds</span>
+          </h1>
+          <h1
+            class="outline-title fade-in-up absolute top-[-25%] right-[-5%] text-7xl font-extrabold z-1 2xl:text-9xl 2xl:top-[-45%] 2xl:right-[-23%]">
+            Minds
+          </h1>
+          <p class="fade-in-up text-base z-2 xs:text-lg 2xl:text-[20px]">
+            Where Strategy Meets Creativity
+          </p>
+        </div>
+        <p
+          class="subtitle fade-in-up flex justify-center text-center mt-[45px] text-[#234564] text-sm xs:text-base max-w-[90%] xs:max-w-none">
+          We craft compelling brand stories that drive success.
+        </p>
+        <div class="arrow-container absolute bottom-9 left-1/2 transform -translate-x-1/2 z-2">
+          <a href="#about">
+            <i class="arrow fa-solid fa-chevron-down text-2xl bounce-top xs:text-3xl 2xl:text-4xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="about-section bg-cover bg-center py-30 h-[100%] xs:h-screen md:py-0" id="about">
+      <div class="about-content flex justify-center items-center flex-col text-white">
+        <div class="about-text mx-auto px-5 max-w-3xl sm:px-12 md:pt-30">
+          <h2 class="fade-in-up mb-10 text-xl text-center font-bold tracking-[3px]">ABOUT <span
+              class="text-main">US</span>
+          </h2>
+          <p class="about-text-one fade-in-up mb-4 font-bold text-left text-xl sm:text-[28px] 2xl:mb-6 2xl:text-4xl">
+            At MarketMinds, we transform ideas into impactful strategies that drive growth and innovation.
+          </p>
+          <p class="about-text-two fade-in-up mb-4 leading-[1.5] text-[14px] sm:text-lg ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam amet hic ex, officiis
+            sapiente in quas repellat neque. Fugiat, minima perferendis. Alias inventore nulla pariatur
+            aliquam deleniti voluptas mollitia veritatis aut, praesentium quos sint, sed quisquam recusandae
+            ipsum ipsa tempora beatae tempore harum labore! Fugit porro doloribus voluptates veniam rerum
+            adipisci assumenda itaque.
+          </p>
+          <p class="about-text-two fade-in-up mb-4 leading-[1.5] text-[14px] sm:text-lg">
+            Itaque, exercitationem repudiandae. Aspernatur ipsa minus voluptatibus
+            recusandae dicta numquam accusamus debitis, cum ullam harum qui nesciunt omnis distinctio,
+            possimus facilis odio? Porro perspiciatis sapiente, vitae repudiandae suscipit, dignissimos
+            voluptatem rerum doloremque.
+          </p>
+        </div>
+        <div class="about-image hidden w-45 xs:flex sm:w-50 2xl:w-60 ">
+          <img class="fade-in-up" src="./img/image.png" alt="Phone icon">
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section h-full bg-main-bg lg:h-screen" id="services">
+      <div class="services-content flex justify-center flex-col items-center py-30 px-10">
+        <h2 class="fade-in-up text-3xl font-bold uppercase tracking-[3px] text-white md:text-4xl 2xl:text-5xl">
+          our <span class="text-main">services</span>
+        </h2>
+
+        <div
+          class="cards flex flex-col items-center w-full max-w-7xl gap-10 mt-20 md:flex-row md:flex-wrap md:justify-center md:gap-15 lg:flex-nowrap xl:gap-25 2xl:gap-30">
+
+          <!-- CARD 1 -->
+          <div
+            class="card relative h-80 max-w-77 rounded-[40px] bg-main text-white px-6 py-6 shadow-lg xs:h-86 lg:flex-1 lg:h-90 lg:max-w-80 xl:h-95">
+            <h3 class="outline-text absolute top-3 right-5">*</h3>
+            <h3
+              class="fade-in-up mt-7 mb-5 flex justify-center text-center text-2xl font-bold uppercase text-nav-second xs:text-3xl 2xl:text-4xl 2xl:mt-9 2xl:mb-7">
+              Content marketing
+            </h3>
+            <p class="fade-in-up mt-3 leading-[1.3] text-base sm:text-lg 2xl:leading-[1.5]">
+              Lorem ipsum consectetur adipisicing elit. Eius laudantium ab autem, voluptatem alias rem!
+            </p>
+            <p class="fade-in-up mt-3 leading-[1.3] text-base sm:text-lg 2xl:leading-[1.5]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+
+          <!-- CARD 2 -->
+          <div
+            class="card relative h-80 max-w-77 rounded-[40px] bg-main text-white px-6 py-6 shadow-lg xs:h-86 lg:flex-1 lg:h-90 lg:max-w-80 xl:h-95">
+            <h3 class="outline-text absolute top-3 right-5">*</h3>
+            <h3
+              class="fade-in-up mt-7 mb-5 flex justify-center text-center text-2xl font-bold uppercase text-nav-second xs:text-3xl 2xl:text-4xl 2xl:mt-9 2xl:mb-7">
+              Social Ads
+            </h3>
+            <p class="fade-in-up mt-3 leading-[1.3] text-base xs:text-lg 2xl:leading-[1.5]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, adipisci. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. In, adipisci itaque! adipisci itaque!
+            </p>
+          </div>
+
+          <!-- CARD 3 -->
+          <div
+            class="card relative h-80 max-w-77 rounded-[40px] bg-main text-white px-6 py-6 shadow-lg xs:h-86 lg:flex-1 lg:h-90 lg:max-w-80 xl:h-95">
+            <h3 class="outline-text absolute top-3 right-5">*</h3>
+            <h3
+              class="fade-in-up mt-7 mb-5 flex justify-center text-center text-2xl font-bold uppercase text-nav-second xs:text-3xl 2xl:text-4xl 2xl:mt-9 2xl:mb-7">
+              SEO
+            </h3>
+            <p class="fade-in-up mt-3 leading-[1.3] text-base xs:text-lg 2xl:leading-[1.5]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ea?
+            </p>
+            <p class="fade-in-up mt-3 leading-[1.3] text-base xs:text-lg 2xl:leading-[1.5]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, voluptates?
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section relative bg-cover bg-center min-h-screen bg-main-bg" id="contact">
+      <div class="contact-content flex justify-center flex-col items-center pt-30 px-5">
+        <h2 class="fade-in-up text-3xl font-bold uppercase tracking-[3px] text-white md:text-4xl 2xl:text-5xl">
+          contact <span class="text-main">us</span>
+        </h2>
+
+        <form class="contact__form flex flex-col items-center w-full mt-12 xs:mt-20 px-4">
+
+          <!-- Wrapper with fixed width on md and above -->
+          <div class="w-full md:max-w-[800px] flex flex-col items-center">
+
+            <!-- Name & Email -->
+            <div class="fade-in-up flex flex-col w-full gap-6 md:flex-row md:gap-20">
+
+              <!-- Name -->
+              <div class="contact__form-box flex flex-col w-full md:w-[600px] 2xl:w-[800px]">
+                <label for="name" class="mb-3 text-white xs:text-lg">Your name:</label>
+                <input type="text" id="name"
+                  class="px-0 pb-2 text-white bg-transparent border-b border-white focus:outline-none focus:border-main transition duration-300 w-full" />
+              </div>
+
+              <!-- Email -->
+              <div class="contact__form-box flex flex-col w-full md:w-[600px] 2xl:w-[800px]">
+                <label for="email" class="mb-3 text-white xs:text-lg">Your email:</label>
+                <input type="email" id="email"
+                  class="px-0 pb-2 text-white bg-transparent border-b border-white focus:outline-none focus:border-main transition duration-300 w-full" />
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div class="contact__form-box fade-in-up flex flex-col mt-6 mb-6 w-full">
+              <label for="message" class="mb-3 text-white xs:text-lg">Message:</label>
+              <textarea id="message"
+                class="px-4 py-2 h-38 text-white bg-transparent backdrop-blur-md border border-white rounded-[10px] resize-none focus:outline-none focus:border-main transition duration-300 xs:h-50 2xl:h-65 w-full"></textarea>
+            </div>
+
+            <button type="submit"
+              class="contact__form-btn fade-in-up mt-2 px-3 py-1 w-26 self-start text-white bg-transparent backdrop-blur-md border border-white rounded-[10px] cursor-pointer hover:bg-[#212f60] transition duration-300 xs:mt-4 xs:px-4 xs:py-2 xs:w-32 xs:text-lg md:w-45 2xl:w-55">
+              Send
+            </button>
+          </div>
+      </div>
+      </form>
+      </div>
+    </section>
+  </main>
+  <footer class="pt-15 pb-4 text-center text-white bg-[#be39a1] sm:pt-0">
+    <p class="mb-3">&copy; 2025 MarketMinds</p>
+    <div>
+      <i
+        class="fa-brands fa-square-facebook mx-4 p-1 text-[20px] cursor-pointer transition-colors duration-300 hover:text-violet"></i>
+      <i
+        class="fa-brands fa-square-instagram mx-4 p-1 text-[20px] cursor-pointer transition-colors duration-300 hover:text-violet"></i>
+      <i
+        class="fa-brands fa-tiktok mx-4 p-1 text-[20px] cursor-pointer transition-colors duration-300 hover:text-violet"></i>
+    </div>
+  </footer>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
